@@ -10,11 +10,11 @@ asyncio  # standard in Python 3.11+, no install needed but listed for clarity
 typing-extensions>=4.7.1
 
 # Vision Agents SDK (replace with your local package or install path)
-vision-agents-sdk @ file://<path-to-local-vision-agents-core>  
+vision_agents @ file://c:/Users/Gupta/Downloads/VisionAI-Hackathon-2026/vision_agents  
 
 # Video/Audio Streams (for AudioStreamTrack and audio utils)
-getstream-video>=1.0.0  # replace with actual if local or published version
+# getstream-video>=1.0.0  # replace with actual if local or published version
 
 # Optional / local LLM dependencies (example, pick one for your local model)
 # GPT4All / llama.cpp / MPT / Falcon
-gpt4all-python>=1.0.0
+gpt4all>=1.0.0
